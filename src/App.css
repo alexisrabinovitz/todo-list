@@ -1,0 +1,144 @@
+.all {
+  background: linear-gradient(120deg, rgb(226, 207, 129), rgb(232, 139, 97));
+  font-family: sans-serif;
+  min-height: 100vh;
+  color: #fff;
+}
+
+
+.todo-list {
+  width: 600px;
+  margin: auto;
+  min-width: 30%;
+  list-style: none;
+}
+
+.todo-list h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 0px;
+  padding-top: 50px;
+}
+
+.todo-form {
+  min-height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.todo-form input[type="text"],
+.todo-form button {
+  padding: 0.5rem;
+  border: none;
+  background: white;
+  font-size: 2rem;
+}
+
+.todo-form button {
+  width: 5rem;
+  color: rgb(238, 139, 97);
+  background: white;
+  cursor: pointer;
+  transition: all 0.5s ease-out;
+}
+
+.todo-form button:hover {
+  color: white;
+  background: rgb(238, 139, 97);
+}
+
+.todo-items {
+  min-width: 25%;
+  list-style: none;
+}
+
+.todo-items li {
+  background: white;
+  color: black;
+  margin: 0.5rem;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.5s ease;
+  padding-left: 15px;
+}
+
+.todo-items li button {
+  color: white;
+  background: #ff6f47;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  padding: 1rem;
+}
+
+.todo-items li button:hover {
+  color: white;
+  background: rgb(238, 139, 97);
+}
+
+.todo-items li.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+
+/* EL DE DAVID */
+/* .todo-list {
+  max-width: 400px;
+  margin: 0 auto
+}
+
+.todo-form {
+  display: flex;
+  margin-bottom: 16px
+}
+
+.todo-form input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+}
+
+.todo-form button {
+  padding: 8xp 16px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  color: #fff;
+  cursor: pointer;
+}
+
+.todo-items {
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo-items li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.todo-items li.completed {
+  text-decoration: line-through;
+  background-color: #eee;
+}
+
+.todo-items li button {
+  margin-left: 8px;
+  padding: 4px 8px;
+  background-color: #dc3545;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+}
+ */
